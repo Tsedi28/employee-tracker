@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. Your assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
   "main": "index.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/Tsedi28/employee-tracker/issues"
   },
-  "homepage": "https://github.com/Tsedi28/employee-tracker#readme",
-  "dependencies": {
-    "inquirer": "^9.1.4"
-  }
+  "homepage": "https://github.com/Tsedi28/employee-tracker#readme"
 }

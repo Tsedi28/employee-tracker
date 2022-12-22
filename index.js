@@ -1,12 +1,13 @@
-const {prompt} = require ("inquirer");
-const db = require ("./db/connection.js"); 
+const { prompt } = require ("inquirer");
+// const db = require ("./db/connection.js"); 
+const db = require ("./db"); 
 const ctable = require ("console.table"); 
 
 // require("console.table");
 
 init();
 
-// initial function at NPM start
+// NPM start
 function init() {
     runPrompts();
 }
@@ -14,7 +15,7 @@ function init() {
 function runPrompts() {
     prompt([
         {
-            // Load these prompts on NPM start
+            // Load prompts on NPM start
             type: "list",
             name: "choice",
             message: "What would you like to do?",

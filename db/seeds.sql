@@ -8,18 +8,6 @@ VALUES
 ('Accounting'),
 ('Marketing');
 
-INSERT INTO employee
-(first_name, last_name, role_id, manager_id)
-VALUES
-('Tedros', 'Abay', 1, NULL),
-('Kandra', 'Willson', 2, 1),
-('Aisha', 'Waddy', 3, NULL),
-('Ermiyas', 'Kassa', 4, 3), 
-('Jasmine', 'Yassin', 4, 3), 
-('Max', 'George', 5, NULL), 
-('Tyler', 'Pollack', 6, 5),
-('Trever', 'Shaffer',7, NULL),
-
 INSERT INTO role
     (title, salary, department_id)
 VALUES
@@ -31,3 +19,16 @@ VALUES
     ('Desktop Support', 100000, 3),
     ('Account Manager', 110000, 4),
     ('Accountant', 90000, 4);
+
+INSERT INTO employee
+(first_name, last_name, role_id, manager_id)
+VALUES
+('Tedros', 'Abay', 1, NULL),
+('Kandra', 'Willson', 2, 1),
+('Aisha', 'Waddy', 3, NULL),
+('Ermiyas', 'Kassa', 4, 3), 
+('Jasmine', 'Yassin', 8, 3), 
+('Max', 'George', 5, NULL), 
+('Tyler', 'Pollack', 6, 5),
+('Trever', 'Shaffer',7, NULL);
+

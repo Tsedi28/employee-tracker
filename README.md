@@ -1,8 +1,9 @@
-employee-tracker
+Employee-tracker
 A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-Github : https://github.com/sylviaprabudy/employee-tracker
-Walkthrough video : https://drive.google.com/file/d/1nszLrXP6h6clwNgTbdWFpGmEilN6u8CY/view
+Github : 
+Walkthrough video : 
+
 Description
 A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
@@ -10,6 +11,7 @@ User Story
 - AS A business owner
 - I WANT to be able to view and manage the departments, roles, and employees in my company
 - SO THAT I can organize and plan my business
+
 Usage
 Application will allow user to view all departments.
 Application will allow user to view all roles.
@@ -36,4 +38,3 @@ console.table
 
 Contributor:
 Tsedenia Bogale ©2022 All Rights Reserved.
-

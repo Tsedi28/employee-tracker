@@ -3,7 +3,7 @@ A command-line application to manage a company's employee database, using Node.j
 
 ### Github : https://github.com/Tsedi28/employee-tracker
 
-### Walkthrough video : 
+### Walkthrough video : https://drive.google.com/file/d/1YgonSHqScTOy4j7jUBazvxuzsAm08Cm8/view
 
 ## Description
 A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.

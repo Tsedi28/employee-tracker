@@ -1,4 +1,5 @@
 Employee-tracker
+
 A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
 Github : 
@@ -20,7 +21,17 @@ Application will allow user to add a department.
 Application will allow user to add a role.
 Application will allow user to add an employee.
 Application will allow user to update an employee role.
-Screenshots
+
+Screenshots:
+![](assets/img/prompts.png)
+
+![](assets/img/Allprompts.png)
+
+![](assets/img/add_a_role.png)
+
+![](assets/img/add_a_department.png)
+
+![](assets/img/add_an_employee.png)
     
 
 Technologies Use

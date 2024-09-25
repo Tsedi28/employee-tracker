@@ -47,5 +47,5 @@ A command-line application to manage a company's employee database, using Node.j
 
 
 ## Contributor:
-Tsedenia Bogale ©2022 All Rights Reserved.
+Tsedi ©2022 All Rights Reserved.
 - - -
